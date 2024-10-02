@@ -90,7 +90,7 @@ export const F1 = ({ onChange, onClick }) => {
           <Form.Control name="seis1" onChange={onChange} as="textarea" style={{ resize: 'none' }} rows={3} placeholder="Ingrese su respuesta" />
         </Form.Group>
         <Form.Group className='mt-3'>
-          <Button onClick={() => onClick()} variant="danger">Enviar mayo respuestas</Button>
+          <Button onClick={() => onClick()} variant="danger">Enviar respuestas</Button>
         </Form.Group>
       </Form>
     </Container>
@@ -136,7 +136,7 @@ export const F2 = ({ onChange, onClick }) => {
           <Form.Control name="seis2" onChange={onChange} as="textarea" style={{ resize: 'none' }} rows={3} placeholder="Ingrese su respuesta" />
         </Form.Group>
         <Form.Group className='mt-3'>
-          <Button onClick={() => onClick()} variant="danger">Enviar mayo respuestas</Button>
+          <Button onClick={() => onClick()} variant="danger">Enviar respuestas</Button>
         </Form.Group>
       </Form>
     </Container>
@@ -181,7 +181,7 @@ export const F3 = ({ onChange, onClick }) => {
           <Form.Control name="seis3" onChange={onChange} as="textarea" style={{ resize: 'none' }} rows={3} placeholder="Ingrese su respuesta" />
         </Form.Group>
         <Form.Group className='mt-3'>
-          <Button onClick={() => onClick()} variant="danger">Enviar mayo respuestas</Button>
+          <Button onClick={() => onClick()} variant="danger">Enviar respuestas</Button>
         </Form.Group>
       </Form>
     </Container>
@@ -226,7 +226,7 @@ export const F4 = ({ onChange, onClick }) => {
           <Form.Control name="seis" onChange={onChange} as="textarea" style={{ resize: 'none' }} rows={3} placeholder="Ingrese su respuesta" />
         </Form.Group>
         <Form.Group className='mt-3'>
-          <Button onClick={() => onClick()} variant="danger">Enviar mayo respuestas</Button>
+          <Button onClick={() => onClick()} variant="danger">Enviar respuestas</Button>
         </Form.Group>
       </Form>
     </Container>
@@ -271,7 +271,7 @@ export const F5 = ({ onChange, onClick }) => {
           <Form.Control name="" onChange={onChange} as="textarea" style={{ resize: 'none' }} rows={3} placeholder="Ingrese su respuesta" />
         </Form.Group>
         <Form.Group className='mt-3'>
-          <Button onClick={() => onClick()} variant="danger">Enviar mayo respuestas</Button>
+          <Button onClick={() => onClick()} variant="danger">Enviar respuestas</Button>
         </Form.Group>
       </Form>
     </Container>
@@ -316,7 +316,7 @@ export const F6 = ({ onChange, onClick }) => {
           <Form.Control as="textarea" style={{ resize: 'none' }} rows={3} placeholder="Ingrese su respuesta" />
         </Form.Group>
         <Form.Group className='mt-3'>
-          <Button onClick={() => onClick()} variant="danger">Enviar mayo respuestas</Button>
+          <Button onClick={() => onClick()} variant="danger">Enviar respuestas</Button>
         </Form.Group>
       </Form>
     </Container>
@@ -362,7 +362,7 @@ export const F7 = ({ onChange, onClick }) => {
           <Form.Control name="seis" onChange={onChange} as="textarea" style={{ resize: 'none' }} rows={3} placeholder="Ingrese su respuesta" />
         </Form.Group>
         <Form.Group className='mt-3'>
-          <Button onClick={() => onClick()} variant="danger">Enviar mayo respuestas</Button>
+          <Button onClick={() => onClick()} variant="danger">Enviar respuestas</Button>
         </Form.Group>
       </Form>
     </Container>
@@ -408,7 +408,7 @@ export const F8 = ({ onChange, onClick }) => {
           <Form.Control name="seis" onChange={onChange} as="textarea" style={{ resize: 'none' }} rows={3} placeholder="Ingrese su respuesta" />
         </Form.Group>
         <Form.Group className='mt-3'>
-          <Button onClick={() => onClick()} variant="danger">Enviar mayo respuestas</Button>
+          <Button onClick={() => onClick()} variant="danger">Enviar respuestas</Button>
         </Form.Group>
       </Form>
     </Container>
@@ -454,7 +454,7 @@ export const F9 = ({ onChange, onClick }) => {
           <Form.Control name="seis" onChange={onChange} as="textarea" style={{ resize: 'none' }} rows={3} placeholder="Ingrese su respuesta" />
         </Form.Group>
         <Form.Group className='mt-3'>
-          <Button onClick={() => onClick()} variant="danger">Enviar mayo respuestas</Button>
+          <Button onClick={() => onClick()} variant="danger">Enviar respuestas</Button>
         </Form.Group>
       </Form>
     </Container>
@@ -500,7 +500,7 @@ export const F10 = ({ onChange, onClick }) => {
           <Form.Control name="seis" onChange={onChange} as="textarea" style={{ resize: 'none' }} rows={3} placeholder="Ingrese su respuesta" />
         </Form.Group>
         <Form.Group className='mt-3'>
-          <Button onClick={() => onClick()} variant="danger">Enviar mayo respuestas</Button>
+          <Button onClick={() => onClick()} variant="danger">Enviar respuestas</Button>
         </Form.Group>
       </Form>
     </Container>
