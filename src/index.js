@@ -4,12 +4,32 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import { Counter } from './Counter-ListaDinamica';
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
+import { FormsComponent } from './components/formularios';
 
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <App/>,
+  },
+  {
+    path: "/form",
+    element: <FormsComponent/>,
+  },
+  {
+    path: "/counter",
+    element: <Counter/>,
+  }
+]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+     <RouterProvider router={router} />
   </React.StrictMode>
 );
 
